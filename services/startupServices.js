@@ -2,7 +2,7 @@ const apiReferenceModule                          = "startup";
 
 const Promise                                     = require('bluebird');
 const envDetails                                  = require('./../properties/environmentDetails');
-const http                                        = require('http');
+const http                                        = require('https');
 const md5                                         = require('md5');
 const constants                                   = require('../utills/constant');
 const mongoLib                                    = require('../services/mongoLib');
