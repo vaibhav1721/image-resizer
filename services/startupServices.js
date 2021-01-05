@@ -17,7 +17,7 @@ function initializeServer() {
             api : 'initializeServer'
         }
         Promise.coroutine(function* () {
-            db                  = yield mongoLib.initializeConnectionPool(envDetails.databaseSettings.mongo.connectionString);
+            // db                  = yield mongoLib.initializeConnectionPool(envDetails.databaseSettings.mongo.connectionString);
             const server = yield startHttpServer(envDetails.port);
         })().then((data) => {
             resolve(data);

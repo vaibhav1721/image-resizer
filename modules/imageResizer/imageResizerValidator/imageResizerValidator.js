@@ -2,7 +2,7 @@
 var Joi                                         = require('joi');
 var validator                                   = require('../../../validator/validator');
 
-var apiReferenceModule                          = "webScrapper";
+var apiReferenceModule                          = "imageResizer";
 
 
 exports.getUrlData                    = getUrlData;
